@@ -117,6 +117,7 @@ button:hover{
     position: absolute;
     top: -8px;
     right: 29px;
+      box-shadow: 5px 5px 15px rgba(8, 148, 50, 0.3); /* X-offset, Y-offset, blur, color */
 }
 
 
@@ -128,4 +129,47 @@ button:hover{
 .banner-h-p h1{
     margin-bottom: 10px;
     font-size: 60px;
+}
+
+.logo-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap:10px;
+}
+
+button.spotify{
+    background: #F7E93F;
+    background: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button.subcribe {
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid #00FF88;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.podcast{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.about h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.about p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2;
 }
