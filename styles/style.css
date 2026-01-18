@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1A0B2E;
+    color: #fff;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+.mr-width{
+    width: 1200px;
+}
+
+.auto-x{
+    margin: 0 auto;
+}
+
+
+.navbar{
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1{
+    font-size: 40px;
+}
+
+
+.navbar ul{
+    text-decoration: none;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar ul li a{
+    font-size: 1em;
+    margin: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-color{
+    background: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+button {
+    padding: 13px 30px;
+    border-radius: 50px;
+    border: none;
+    color:#fff;
+    font-weight: 700;
+}
+
+.mrgradient{
+   background: #F7E93F;
+    background: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+}
+
+button:hover{
+   cursor: pointer;
+}
+
+.banner{
+    height: 760px;
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 1px solid #311358;
+    
+}
+
+.banner-content{
+    width: 550px;
+    height: 558px;
+    margin-top: 100px;
+        
+}
+
+.logo-large{
+    margin: 0 auto;
+    width:350px;
+    height:350px;
+    background-image: url(../images/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.logo-large img {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.new {
+    background-color: #00FF88;
+    color: #1A0B2E;
+    position: absolute;
+    top: -8px;
+    right: 29px;
+}
+
+
+.banner-h-p{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.banner-h-p h1{
+    margin-bottom: 10px;
+    font-size: 60px;
+}
