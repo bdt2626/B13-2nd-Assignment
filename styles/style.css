@@ -236,7 +236,7 @@ button.subcribe {
 }
 
 .grid-item {
-  background-color: #35116566;;
+  background-color: #35116566;
   color: white;
   padding: 40px;
   border-radius: 40px;
@@ -412,3 +412,24 @@ button.subcribe {
     align-items: center;
     color: #00FF88;
 }
+
+.host {
+    margin-top: 120px;
+    
+}
+
+.alex {
+    background-color: #35116566;
+    border-radius: 30px;
+    display: flex;
+    padding: 50px 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.host h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
