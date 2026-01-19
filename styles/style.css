@@ -25,6 +25,7 @@ body{
 
 .navbar{
     margin-top: 36px;
+    margin-bottom:36px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,3 +206,142 @@ button.subcribe {
 }
 
 
+.chose-heading{
+    text-align: center;
+    padding-bottom: 40px;
+   }
+
+.whychose {
+    background-color: #230E3D;
+    height: 983px;
+    padding: 120px 120px;
+}
+
+
+.whychose p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.speciality{
+    height: 783px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 30px; 
+    grid-template-areas:
+    "audio mobile mobile"
+    "audio global global"
+    "interviews interviews resources" ;
+}
+
+.grid-item {
+  background-color: #35116566;;
+  color: white;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+.audio{
+    grid-area: audio;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+
+.audio h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.audio p {
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.mobile{grid-area: mobile;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.mobile h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.mobile p {
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+.global{grid-area: global;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.global h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.global p {
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+.interviews{grid-area: interviews;
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.interviews h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.interviews p {
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+.resources{grid-area: resources;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.resources h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    
+    
+}
+
+.resources p {
+    line-height: 24px;
+    font-weight: 400;
+    
+}
+}
