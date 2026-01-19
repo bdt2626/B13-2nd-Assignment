@@ -345,3 +345,66 @@ button.subcribe {
     
 }
 }
+
+.episodes{
+    height: 1278px;
+    background-color: #00FF88;
+    text-align: center;
+}
+
+.episodes {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.vdo{
+    height: 538px;
+}
+
+.vdo h3{
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+.iframewrpaper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 20px;    
+    
+}
+
+.utube{
+    border-radius: 20px;    
+    text-align: left;
+    width: 380px;
+ 
+}
+
+.utube h4{
+    font-size: 24px
+    
+}
+
+.vdo-txt{
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+ 
+.vdo-txt h4 {
+    padding-bottom: 12px;
+    }
+
+.vdo-txt p {
+    padding-bottom: 12px;
+    }
+
+.mr-timer{
+    padding-left: 24px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #00FF88;
+}
