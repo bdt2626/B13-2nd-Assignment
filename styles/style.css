@@ -161,6 +161,12 @@ button.subcribe {
 }
 
 
+.about {
+   border-bottom: 1px solid #311358;
+   
+}
+
+
 .about h2 {
     font-size: 3rem;
     font-weight: 700;
@@ -172,4 +178,30 @@ button.subcribe {
     font-size: 1rem;
     font-weight: 300;
     line-height: 2;
+    margin-bottom: 100px;
+
 }
+
+.rating{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.rating h1{
+    
+    padding-bottom: 10px;
+    color: #00FF88;
+    font-size: 40px;
+    font-weight: 700px;
+   
+}
+
+
+.rating p{
+    color: #c4c4c4;
+
+}
+
+
