@@ -373,7 +373,6 @@ button.subcribe {
     margin-top: 20px;
     border-radius: 20px; 
     
-    
 }
 
 .utube {
@@ -402,6 +401,8 @@ button.subcribe {
 
 .vdo-txt p {
     padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
     }
 
 .mr-timer{
