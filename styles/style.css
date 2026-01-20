@@ -621,12 +621,13 @@ button.subcribe {
 .whychose {
     background-color: #230E3D;
     padding: 0;
+    height: auto;
 }
 
 .episodes {
     height: auto;
     text-align: center;
-    margin-top: 800x;
+    
 }
 
 .iframewrpaper{
