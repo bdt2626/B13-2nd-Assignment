@@ -630,7 +630,7 @@ button.subcribe {
 .episodes {
     height: auto;
     text-align: center;
-    margin-top: 680px;
+    margin-top: 700x;
 }
 
 .iframewrpaper{
@@ -655,8 +655,8 @@ button.subcribe {
     overflow: hidden;
 }
 
+
 .utube iframe {
-    
     width: 100%;
     background-color: #250D44;
     padding-bottom: 30px;
