@@ -475,16 +475,55 @@ button.subcribe {
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
-    text-align: center;
     margin-top: 120px;
 }
 
 .footer-content{
-    
-}
+    text-align: center;
 
+}
 
 .mr-footer h1{
     font-size: 40px;
-    margin-top: 120px;
+   padding-top: 120px;
+    text-align: center;
 }
+
+
+.footer-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer-link li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    list-style-type: none;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.footer-link li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px
+}
+
+
+
+.copyright p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
