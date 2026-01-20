@@ -31,6 +31,10 @@ body{
     align-items: center;
 }
 
+.hamburger{
+    display: none;
+}
+
 .navbar h1{
     font-size: 40px;
 }
@@ -363,12 +367,13 @@ button.subcribe {
 }
 
 .episodes{
-    height: 1278px;
-    background-color: #00FF88;
-    text-align: center;
+    /* height: 1278px; */
+    /* text-align: center; */
+    /* margin-top: 120px; */
 }
 
 .episodes {
+    
     text-align: center;
     margin-top: 120px;
 }
@@ -543,3 +548,119 @@ button.subcribe {
     font-weight: 200;
 }
 
+/* ============================ */
+/* responsive starts here */
+
+@media screen and (max-width: 576px) {
+    .mr-width{ 
+        width: 100%;
+        padding: 0 12px;
+     }
+
+    .navbar {
+        gap: 16px;
+        justify-content: flex-start;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hamburger{
+        display: block;
+        padding-right: 10px;
+    }
+    
+    .navbar ul {
+        display: none;
+            }
+   
+    .btn-tp{
+        display: none;
+    }
+
+    /* navbar end */
+    /* banner part */
+    .banner{
+     background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid #311358;
+    display: flex; 
+    align-items: center;
+    }
+    
+    .about p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2;
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+.rating {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.chose-heading h1 {
+    padding-top: 40px;
+}
+
+.speciality{
+    height: auto; 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "audio"
+      "mobile"
+      "global"
+      "interviews"
+      "resources"; 
+      margin-bottom: 100px;
+      gap: 50px;
+    
+}
+
+.whychose {
+    background-color: #230E3D;
+    padding: 0;
+}
+
+.episodes {
+    height: auto;
+    text-align: center;
+    margin-top: 680px;
+}
+
+.iframewrpaper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 20px; 
+    
+}
+
+.vdo{
+    height: auto;
+}
+
+.utube {
+    border-radius: 20px;
+    text-align: left;
+    width: 100%;
+    background-color: #250D44;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.utube iframe {
+    
+    width: 100%;
+    background-color: #250D44;
+    padding-bottom: 30px;
+   
+}
+
+}
