@@ -68,6 +68,9 @@ button {
     font-weight: 700;
 }
 
+
+
+
 .mrgradient{
    background: #F7E93F;
     background: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
@@ -118,9 +121,22 @@ button:hover{
     position: absolute;
     top: -8px;
     right: 29px;
-      box-shadow: 5px 5px 15px rgba(8, 148, 50, 0.3); /* X-offset, Y-offset, blur, color */
+    box-shadow: 5px 5px 15px rgba(8, 148, 50, 0.3); 
+    cursor: pointer;
+    animation: scalePulse 1.5s ease-in-out infinite;
 }
 
+@keyframes scalePulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 .banner-h-p{
     padding-top: 50px;
