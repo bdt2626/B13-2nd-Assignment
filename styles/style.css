@@ -364,16 +364,10 @@ button.subcribe {
     font-weight: 400;
     
 }
-}
 
-.episodes{
-    /* height: 1278px; */
-    /* text-align: center; */
-    /* margin-top: 120px; */
-}
+
 
 .episodes {
-    
     text-align: center;
     margin-top: 120px;
 }
@@ -385,6 +379,8 @@ button.subcribe {
 .vdo h3{
     font-size: 40px;
     font-weight: 700px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .iframewrpaper{
@@ -450,7 +446,7 @@ button.subcribe {
 
 .alex h4 {
     padding-bottom: 20px;
-    font-size: 24px;
+    font-size: 35px;
 }
 
 .description{
@@ -630,7 +626,7 @@ button.subcribe {
 .episodes {
     height: auto;
     text-align: center;
-    margin-top: 700x;
+    margin-top: 800x;
 }
 
 .iframewrpaper{
@@ -682,5 +678,7 @@ button.subcribe {
     gap: 20px;
     
        }
+
+    
 
 }
