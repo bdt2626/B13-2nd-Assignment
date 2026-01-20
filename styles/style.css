@@ -575,7 +575,7 @@ button.subcribe {
     /* navbar end */
     /* banner part */
     .banner{
-     background-image: url("../images/hero-bg.png");
+    background-image: url("../images/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -681,5 +681,25 @@ button.subcribe {
        }
 
     
+
+
+    .mr-footer{
+    background-image: url(../images/footer-bg.png);
+    height: auto;
+    width: 100%;
+    background-size:cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-top: 120px;
+    align-items: center;
+    padding: 40px 20px;
+    
+}
+
+.mr-footer h1{
+    font-size: 40px;
+   padding-top: 50px;
+    text-align: center;
+}
 
 }
